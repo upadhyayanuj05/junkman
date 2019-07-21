@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialTextBox ui:field="t1"/>
+	 <m:MaterialButton text="Filter by Quantity" waves="LIGHT" textColor="WHITE" iconType="POLYMER" iconPosition="LEFT" ui:field="b1"></m:MaterialButton>
+	 <m:MaterialButton text="Filter by area" waves="LIGHT" textColor="WHITE" iconType="POLYMER" iconPosition="LEFT" ui:field="b2"></m:MaterialButton>
+	 <div id="a"></div>
+	 
+	</g:HTMLPanel>
+</ui:UiBinder> 

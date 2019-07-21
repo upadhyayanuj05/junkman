@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	
+	<m:MaterialButton iconType="ARROW_BACK"  ui:field="back"/>
+	<m:MaterialRow >
+ <m:MaterialTextBox label="Name"   grid="s12 m4 l4"  ui:field="name" />
+ <m:MaterialTextBox label="Address"  grid="s12 m4 l4" ui:field="address" />
+
+ </m:MaterialRow>
+ <m:MaterialRow shadow="5">
+ <m:MaterialTextBox label="Phone No."  grid="s12 m4 l4" ui:field="phone" />
+ <m:MaterialTextBox label="Email"  grid="s12 m4 l4" ui:field="email" />
+ </m:MaterialRow>
+ <m:MaterialRow>
+ <m:MaterialButton text="Add" grid="l4" ui:field="add" />
+ </m:MaterialRow>
+ 		
+	</g:HTMLPanel>
+</ui:UiBinder> 

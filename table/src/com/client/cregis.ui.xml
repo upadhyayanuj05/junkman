@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	<div  shadow="4"  style="width: 50em; border: solid black; position: absolute; left: 40%; top: 30; margin-left: -11em;" id="centre">
+	<table>
+		<m:MaterialImage ui:field="h5" url="https://previews.123rf.com/images/nicolasmenijes/nicolasmenijes1505/nicolasmenijes150500657/40605586-3d-renderer-illustration-white-people-writing-registration-on-notebook-page-isolated-white-backgroun.jpg" width="90%"/>
+    <tr><td>	<m:MaterialTextBox ui:field= "name" label= "UserName" iconType= "FACE" length = "20"/></td></tr>
+	<tr><td>	<m:MaterialTextBox ui:field= "mobile" label= "MOBILE NO.>"  length = "11"/></td></tr>
+	<tr><td>	<m:MaterialTextBox ui:field= "email" label= "Email" iconType= "ACCOUNT_CIRCLE"/></td></tr>
+	<tr><td>	<m:MaterialTextBox ui:field= "location" label= "Area" length = "20"/></td></tr>
+	<tr><td>	<m:MaterialTextBox ui:field= "pin" label= "Pin Code"  length = "6"/></td></tr>
+	<tr><td>	<m:MaterialTextBox ui:field= "pass" label= "password"  length = "16"/></td></tr>
+
+	<tr><td>	<m:MaterialButton ui:field= "register" text="INSERT" waves="DEFAULT" backgroundColor="BLUE" textColor="WHITE"/></td></tr>
+	
+	</table>
+	
+	</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

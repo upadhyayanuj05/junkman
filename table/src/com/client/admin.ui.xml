@@ -1,0 +1,44 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<m:MaterialPanel>
+		<m:MaterialNavBar>
+
+ <m:MaterialNavBrand  float="LEFT" text="Kachraman"/>
+ <m:MaterialNavSection float="RIGHT">
+ <m:MaterialLink text="Home" ui:field="home" />
+ 
+ <m:MaterialLink iconType="AC_UNIT" iconPosition="LEFT" text="dropdown" textColor="WHITE" waves="LIGHT" activates="dp-2"/>
+ <m:MaterialDropDown activator="dp-2" constrainWidth="true">
+          <m:MaterialLink text="Request" ui:field="p1"/>
+          <m:MaterialLink text="Pickupman Data"  ui:field="p2"/>
+          <m:MaterialLink text="Payment"  ui:field="p3"/>
+          <m:MaterialLink text="Total Spunk" ui:field="p4" />
+        </m:MaterialDropDown>
+
+
+  <m:MaterialIcon iconType="CLEAR_ALL" iconColor="WHITE" activates="dp-4" waves="LIGHT" />
+  
+ <m:MaterialDropDown activator="dp-4" constrainWidth="false">
+ <m:MaterialLink ui:field="logout"  text="Logout" />
+
+ </m:MaterialDropDown>
+
+ </m:MaterialNavSection>
+
+ </m:MaterialNavBar>
+   <m:MaterialContainer height="1600px" paddingTop="200" ui:field="con">
+   
+            <m:MaterialRow textAlign="CENTER" paddingTop="40">
+                <m:MaterialImage url="https://lh3.googleusercontent.com/ufqhOaArfD6tn9tlVtzhJQuyxeQkzN0cDXE7ffbbK6VgOzqQkty6vWUMg3PvfM2UA0FYnnffgMCr1KjBLyR5otQkkEiuYHQyumt36VmhmNSK80avPoRGUpIiNaw9bRB7TafoZQq2O0xYkNy6n-_TXa_l-NSbSvnJPMaW4Vx58YPLzfyBygJoawL67H_yFIbLcRft5ah0cGucspPgmJzjyWni_J5TGdDWydigSoR8iBimb9QXcDEHvvUySm_EXTpcPRIctXbsj7OSVFKMRp6YSP8ncES_QJSTX13YFJTiPj_iJN5MjQ9eo94GkhCJa9K5CoZW_67NbtwT2AU6V1r5_gk0m6m8Sn8vB0W7mYbndNCcXxEr7qfOITpAMnMkZ_5FHpalChYU-MCn34cV8HBbNtXtAo_uukvbP4F3l2AgxNSS5JSANmlzxppeEIICAYQuuAgHBus9-ZgE855mv0ZuR6queJFUmNXXOpWlOX4yJ2t1hfTd333yu_95rK2dZFrR7KEocjGmSlWooPjQXnkDcHk-bijPiCf73tabLuFiJ5XXac2v-qaDaWF7tr8JWeKzrl6kb8-AA5L9Dg7hwl3dqdjhxbaD7Jz-4ELNZDeTZqPsQeebxKoWrITFhYO_6nDVEH5QVN7nMP8-YRjijUwdAlNH=w376-h350-no" style=" opacity: 0.75;filter: alpha(opacity=50);" />
+            </m:MaterialRow>
+           
+        </m:MaterialContainer>
+	</m:MaterialPanel>
+</ui:UiBinder> 

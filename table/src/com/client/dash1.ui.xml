@@ -1,0 +1,39 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialNavBar>
+
+ <m:MaterialNavBrand  float="LEFT" text="DashBoard"/>
+ <m:MaterialNavSection float="RIGHT">
+ 
+ </m:MaterialNavSection>
+
+ </m:MaterialNavBar>
+	
+	
+	<m:MaterialContainer>
+	<m:MaterialRow>
+	<m:MaterialColumn  grid="s12 m8 l6" offset="l4">
+	<m:MaterialLink ui:field="admin">
+	<m:MaterialImage url="http://www.sclance.com/pngs/admin-png/admin_png_17260.png"></m:MaterialImage>
+	</m:MaterialLink>
+	<m:MaterialLink ui:field="pickup">
+	<m:MaterialImage url="https://static.thenounproject.com/png/642192-200.png"></m:MaterialImage>
+	
+	</m:MaterialLink>
+	<m:MaterialLink ui:field="customer">
+	<m:MaterialImage url="https://junkman.co.nz/wp-content/uploads/2019/05/Logo-JunkMan_277X200.png"></m:MaterialImage>
+	
+	</m:MaterialLink>
+	</m:MaterialColumn>
+	</m:MaterialRow>
+	</m:MaterialContainer>
+	</g:HTMLPanel>
+</ui:UiBinder> 
